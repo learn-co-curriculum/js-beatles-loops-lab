@@ -27,3 +27,11 @@ Use a while loop to loop over the facts array and add `"!!!"` to the end of ever
 + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The body of the function should create a variable that stores an empty array. Then, implement a do-while loop inside the function that adds `"I love the Beatles!"` to the empty array. Then the loop should increment the number passed in as a parameter. The condition of the loop should check to see that the parameter number is less than `15`. The function should return the array with the strings `"I love the Beatles!"`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
+
+
+The test has a typo, using instrument (instead of MUSICIAN) in the explanation: 
+"describe('Beatles Loops', function() {
+  it("returns an array of strings containing what instruments each MUSICIAN plays", function() {
+    const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+    const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-beatles-loops-lab'>Beatles Loops Lab</a> on Learn.co and start learning to code for free.</p>
